@@ -1,0 +1,105 @@
+body {
+    background-color: #303641;
+}
+
+#container_role {
+    background-color: #1D1F20;
+    position: relative;
+    top: 0.5%;
+    margin: auto;
+    width: 600px;
+    height: 730px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#note {
+    color: #C1C3C6;
+    padding: 5px 0px 5px 50px;
+}
+
+#title {
+    position: relative;
+    background-color: #1A1C1D;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 0.35em;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C1C3C6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.name {
+    margin: auto;
+    margin-top: 15px;
+    color: #C1C3C6;
+    margin-left: 50px;
+}
+
+.input {
+    margin: auto;
+    width: 500px;
+    border-radius: 4px;
+    background-color: #373b3d;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+.candidate {
+    margin: auto;
+    width: 500px;
+    border-radius: 4px;
+    background-color: #373b3d;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+input[type=number] {
+    width: 30px;
+    margin: 0 0 0 25px;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: #949494;
+    margin: 0 25px;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    width: 450px;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #373b3d;
+}
+
+.have-voted {
+    margin: 10px 45px;
+}
+
+#next {
+    margin-top: 5px;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    position: absolute;
+    left: 43%;
+}
+
+.clearfix {
+    clear: both;
+}
